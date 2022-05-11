@@ -44,8 +44,7 @@ button {
 }
 
 select {
-  margin: 0 auto 7px;
-  width: 24%;
+  width: 21%;
   border-radius: 8px;
   border: 1px solid rgb(141, 141, 141);
   padding: 4px;
@@ -59,8 +58,7 @@ select {
   border-radius: 8px;
   border: 1px solid rgb(141, 141, 141);
   padding: 4px;
-  width: 24%;
-  padding-inline: 0.6rem;
+  width: 19.5%;
   text-align: left;
   display: flex;
   justify-content: space-between;
@@ -70,12 +68,13 @@ select {
 input[type="radio"] {
   align-self: center;
   margin: 2.5px 0 2px;
+  width: auto;
 }
 
 h5 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(40, 40, 40);
-  margin: 0;
+  margin: 0.5rem 0;
 }
 
 .flex {
