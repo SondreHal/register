@@ -16,7 +16,7 @@ input {
 
 fieldset {
   background: white;
-  margin: 5rem 20rem;
+  margin: 5rem auto;
   border-radius: 20px;
   border: 2px solid rgb(190, 190, 190);
   max-width: 600px;
@@ -78,4 +78,8 @@ h5 {
   margin-right: 20.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(40, 40, 40);
+}
+
+.form {
+  size: 100%;
 }
