@@ -32,7 +32,7 @@ h5 {
 
 .pers-name {
    display: grid;
-   grid-template-columns: 14fr 36fr 36fr 14fr;
+   grid-template-columns: 14% 36% 36% 14%;
    grid-template-rows: 1fr 1fr 1fr;
    grid-gap: 0.2rem;
    margin-bottom: 2rem;
@@ -102,7 +102,7 @@ label {
    grid-column-start: 3;
 }
 
-input[type="checkbox"] {
+input[type="radio"] {
    margin-block: auto;
    grid-column-start: 5;
 }
