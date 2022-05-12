@@ -5,19 +5,6 @@ body {
    text-align: center;
 }
 
-@media (min-width: 700px) {
-   .page {
-      max-width: 700px;
-   }
-}
-
-@media (max-width: 700px) {
-   .border {
-      display: flex;
-      justify-content: space-between;
-   }
-}
-
 .page {
    margin: 10rem auto;
    width: 80%;
@@ -101,8 +88,8 @@ select {
    font-family: "Helvetica", Arial, Lucida Grande, sans-serif !important;
    font-size: 13px;
    padding: 4px;
-   display: grid;
-   grid-template-columns: 10% 20% 40% 15% 15%;
+   display: flex;
+   justify-content: space-between;
 }
 
 label {
@@ -136,4 +123,14 @@ button {
 
 button:hover {
    background: linear-gradient(rgb(0, 160, 255), rgb(150, 255, 255));
+}
+
+@media (min-width: 700px) {
+   .page {
+      max-width: 700px;
+   }
+   .border {
+      display: grid;
+      grid-template-columns: 10% 20% 40% 15% 15%;
+   }
 }
