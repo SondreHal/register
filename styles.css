@@ -6,7 +6,7 @@ body {
 }
 
 .page {
-   margin: 10rem auto;
+   margin: 2rem auto;
    width: 80%;
    border: 2px solid rgb(190, 190, 190);
    border-radius: 16px;
@@ -128,6 +128,7 @@ button:hover {
 @media (min-width: 700px) {
    .page {
       max-width: 700px;
+      margin: 10rem auto;
    }
    .border {
       display: grid;
