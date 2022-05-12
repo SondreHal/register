@@ -1,6 +1,6 @@
 body {
+   margin: 0;
    background: rgb(240, 240, 240);
-   margin: 0 auto;
    font-family: "Bakbak One", cursive;
    text-align: center;
 }
@@ -12,36 +12,43 @@ body {
 }
 
 .page {
-   width: 80%;
-   padding: 0;
-   border: 2px solid rgb(190, 190, 190);
-   background: white;
-   border-radius: 8px;
    margin: 2rem auto;
+   width: 80%;
+   border: 2px solid rgb(190, 190, 190);
+   border-radius: 16px;
+   background: white;
+   padding-bottom: 1rem;
+   box-shadow: 5px 5px 15px rgb(100, 100, 100);
 }
 
-.pers-info {
+h1 {
+   margin: 1rem 0;
+}
+
+h5 {
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   color: rgb(40, 40, 40);
+   margin-bottom: 0.5rem;
+}
+
+.pers-name {
    display: grid;
    grid-template-columns: 14% 36% 36% 14%;
-   grid-template-rows: 33% 33% 33%;
+   grid-template-rows: 1fr 1fr 1fr;
    gap: 0.2rem;
    margin-bottom: 2rem;
 }
 
-.pers-bd {
+.pers-info {
    display: grid;
    grid-template-columns: 14% 24% 24% 24% 14%;
    gap: 0.2rem;
 }
 
-.pers-gender {
-   display: grid;
-}
-
 input {
-   background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
-   border-radius: 8px;
    border: 1px solid rgb(141, 141, 141);
+   border-radius: 8px;
+   background: linear-gradient(rgb(255, 255, 255), rgb(240, 240, 240));
    padding: 10px;
 }
 
@@ -63,39 +70,10 @@ input {
    grid-column: 2/4;
 }
 
-button {
-   margin-top: 1rem;
-   margin-bottom: 8px;
-}
-
 select {
-   border-radius: 8px;
    border: 1px solid rgb(141, 141, 141);
-   padding: 4px;
-   align-self: center;
-}
-
-.border {
-   font-family: "Helvetica", Arial, Lucida Grande, sans-serif !important;
-   font-size: 13px;
    border-radius: 8px;
-   border: 1px solid rgb(141, 141, 141);
    padding: 4px;
-   text-align: left;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-input[type="radio"] {
-   align-self: center;
-   width: auto;
-}
-
-h5 {
-   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-   color: rgb(40, 40, 40);
-   margin: 0.5rem 0;
 }
 
 #bd-day {
@@ -110,6 +88,10 @@ h5 {
    grid-column-start: 4;
 }
 
+input[type="radio"] {
+   margin-block: auto;
+}
+
 .male {
    grid-column-start: 2;
 }
@@ -120,4 +102,20 @@ h5 {
 
 .unicorn {
    grid-column-start: 4;
+}
+
+.border {
+   margin: 0;
+   border: 1px solid rgb(141, 141, 141);
+   border-radius: 8px;
+   font-family: "Helvetica", Arial, Lucida Grande, sans-serif !important;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px;
+   display: flex;
+   justify-content: space-between;
+}
+
+button {
+   margin: 0;
 }
