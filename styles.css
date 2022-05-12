@@ -1,6 +1,6 @@
 body {
    margin: 0;
-   background: rgb(240, 240, 240);
+   background: rgb(57, 57, 87);
    font-family: "Bakbak One", cursive;
    text-align: center;
 }
@@ -17,7 +17,6 @@ body {
    border: 2px solid rgb(190, 190, 190);
    border-radius: 16px;
    background: white;
-   padding-bottom: 1rem;
    box-shadow: 5px 5px 15px rgb(100, 100, 100);
 }
 
@@ -33,16 +32,16 @@ h5 {
 
 .pers-name {
    display: grid;
-   grid-template-columns: 14% 36% 36% 14%;
+   grid-template-columns: 14fr 36fr 36fr 14fr;
    grid-template-rows: 1fr 1fr 1fr;
-   gap: 0.2rem;
+   grid-gap: 0.2rem;
    margin-bottom: 2rem;
 }
 
 .pers-info {
    display: grid;
-   grid-template-columns: 14% 24% 24% 24% 14%;
-   gap: 0.2rem;
+   grid-template-columns: 14fr 24fr 24fr 24fr 14fr;
+   grid-gap: 0.2rem;
 }
 
 input {
@@ -88,8 +87,24 @@ select {
    grid-column-start: 4;
 }
 
+.border {
+   margin: 0;
+   border: 1px solid rgb(141, 141, 141);
+   border-radius: 8px;
+   font-family: "Helvetica", Arial, Lucida Grande, sans-serif !important;
+   font-size: 13px;
+   padding: 4px;
+   display: grid;
+   grid-template-columns: 10% 20% 40% 15% 15%;
+}
+
+label {
+   grid-column-start: 3;
+}
+
 input[type="checkbox"] {
    margin-block: auto;
+   grid-column-start: 5;
 }
 
 .male {
@@ -104,17 +119,14 @@ input[type="checkbox"] {
    grid-column-start: 4;
 }
 
-.border {
-   margin: 0;
-   border: 1px solid rgb(141, 141, 141);
-   border-radius: 8px;
-   font-family: "Helvetica", Arial, Lucida Grande, sans-serif !important;
-   font-size: 13px;
-   padding: 4px;
-   display: flex;
-   justify-content: space-between;
+button {
+   border-color: rgb(0, 144, 201);
+   background: linear-gradient(rgb(150, 255, 255), rgb(0, 160, 255));
+   padding: 0.6rem 2rem;
+   border-radius: 0.4rem;
+   margin: 1rem auto 3rem;
 }
 
-button {
-   margin: 0;
+button:hover {
+   background: linear-gradient(rgb(0, 160, 255), rgb(150, 255, 255));
 }
