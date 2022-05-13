@@ -26,7 +26,10 @@ h5 {
 
 .pers-name {
    display: grid;
-   grid-template-columns: 14% 36% 36% 14%;
+   grid-template-columns: minmax(auto, 14%) minmax(auto, 36%) minmax(auto, 36%) minmax(
+         auto,
+         14%
+      );
    grid-template-rows: 1fr 1fr 1fr;
    grid-gap: 0.2rem;
    margin-bottom: 2rem;
@@ -34,8 +37,9 @@ h5 {
 
 .pers-info {
    display: grid;
-   grid-template-columns: 14fr 24fr 24fr 24fr 14fr;
-   grid-gap: 0.2rem;
+   grid-template-columns:
+      minmax(auto, 14%) minmax(auto, 24%) minmax(auto, 24%) minmax(auto, 24%)
+      minmax(auto, 14%);
 }
 
 input {
