@@ -37,9 +37,7 @@ h5 {
 
 .pers-info {
    display: grid;
-   grid-template-columns:
-      minmax(auto, 14%) minmax(auto, 24%) minmax(auto, 24%) minmax(auto, 24%)
-      minmax(auto, 14%);
+   grid-template-columns: 14fr, 24fr, 24fr, 24fr, 14fr;
 }
 
 input {
@@ -118,7 +116,7 @@ input[type="radio"] {
 }
 
 button {
-   border-color: rgb(0, 144, 201);
+   border-color: rgb(0, 150, 200);
    background: linear-gradient(rgb(150, 255, 255), rgb(0, 160, 255));
    padding: 0.6rem 2rem;
    border-radius: 0.4rem;
