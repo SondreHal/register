@@ -37,7 +37,12 @@ h5 {
 
 .pers-info {
    display: grid;
-   grid-template-columns: 14fr, 24fr, 24fr, 24fr, 14fr;
+   grid-template-columns:
+      minmax(auto, 14fr) minmax(auto, 24fr) minmax(auto, 24fr) minmax(
+         auto,
+         24fr
+      )
+      minmax(auto, 14fr);
 }
 
 input {
