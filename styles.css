@@ -43,6 +43,7 @@ h5 {
          24fr
       )
       minmax(auto, 14fr);
+   grid-gap: 0.2rem;
 }
 
 input {
@@ -140,6 +141,28 @@ button:hover {
    .border {
       display: grid;
       grid-template-columns: 10% 20% 40% 15% 15%;
+   }
+}
+
+@media (max-width: 700px) {
+   .pers-name {
+      display: grid;
+      grid-template-columns:
+         minmax(auto, 8%) minmax(auto, 44%) minmax(auto, 44%)
+         minmax(auto, 8%);
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-gap: 0.2rem;
+      margin-bottom: 2rem;
+   }
+   .pers-info {
+      display: grid;
+      grid-template-columns:
+         minmax(auto, 8fr) minmax(auto, 28fr) minmax(auto, 28fr) minmax(
+            auto,
+            28fr
+         )
+         minmax(auto, 8fr);
+      grid-gap: 0.2rem;
    }
 }
 
