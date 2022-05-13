@@ -128,7 +128,6 @@ button:hover {
 @media (min-width: 700px) {
    .page {
       max-width: 700px;
-      margin: 10rem auto;
    }
    .border {
       display: grid;
