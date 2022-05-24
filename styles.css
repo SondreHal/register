@@ -136,6 +136,48 @@ input[type="radio"] {
    cursor: pointer;
 }
 
+#male:checked:after {
+   width: 10px;
+   height: 10px;
+   border-radius: 12px;
+   top: -1px;
+   left: -1px;
+   position: relative;
+   background-color: #0084ff;
+   content: "";
+   border: 1px;
+   display: inline-block;
+   border: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+#female:checked:after {
+   width: 10px;
+   height: 10px;
+   border-radius: 12px;
+   top: -1px;
+   left: -1px;
+   position: relative;
+   background-color: #ff00f7;
+   content: "";
+   border: 1px;
+   display: inline-block;
+   border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#unicorn:checked:after {
+   width: 10px;
+   height: 10px;
+   border-radius: 12px;
+   top: -1px;
+   left: -1px;
+   position: relative;
+   background-color: #00ff1a;
+   content: "";
+   border: 1px;
+   display: inline-block;
+   border: 2px solid rgb(0, 0, 0, 0.5);
+}
+
 .male {
    grid-column-start: 2;
 }
