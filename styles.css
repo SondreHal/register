@@ -222,6 +222,21 @@ button:active {
    transition: all 0.4s ease-in-out;
 }
 
+.margin_form {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   margin-bottom: 2em;
+}
+
+#color {
+   padding: 2px 8px;
+}
+
+.margin-bot {
+   margin-bottom: 2em;
+}
+
 @media (min-width: 700px) {
    .page {
       max-width: 700px;
